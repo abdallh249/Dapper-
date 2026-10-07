@@ -17,9 +17,7 @@ public sealed class DapperRepository
     }
 
 
-    // ----------------------------
-    // ADD STUDENT
-    // ----------------------------
+   -
 
     public async Task AddStudent(Student student)
     {
@@ -40,9 +38,7 @@ public sealed class DapperRepository
     }
 
 
-    // ----------------------------
-    // ADD COURSE
-    // ----------------------------
+  
 
     public async Task AddCourse(Course course)
     {
@@ -63,9 +59,7 @@ public sealed class DapperRepository
     }
 
 
-    // ----------------------------
-    // ADD ENROLLMENT
-    // ----------------------------
+  
 
     public async Task AddEnrollment(
         Enrollment enrollment)
@@ -208,9 +202,7 @@ public sealed class DapperRepository
     }
 
 
-    // ----------------------------
-    // DELETE STUDENT
-    // ----------------------------
+   
 
     public async Task DeleteStudent(int studentId)
     {
@@ -233,9 +225,7 @@ public sealed class DapperRepository
     }
 
 
-    // ----------------------------
-    // DELETE COURSE
-    // ----------------------------
+    
 
     public async Task DeleteCourse(int courseId)
     {
@@ -258,9 +248,7 @@ public sealed class DapperRepository
     }
 
 
-    // ----------------------------
-    // GET ENROLLMENTS
-    // ----------------------------
+   
 
     public async Task GetEnrollments(
         string? studentName,
