@@ -114,8 +114,7 @@ await repository.AddEnrollment(
 );
 
 
-// Ahmad already has 3 courses.
-// This should fail.
+
 
 await repository.AddEnrollment(
     new Enrollment
